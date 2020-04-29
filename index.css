@@ -32,6 +32,6 @@ dd{
     padding: 20px 60px;
 }
 dl.new-info {
-    height: 120px;
-    width: 800px;
+    height: 140px;
+    width: auto;
 }
