@@ -27,11 +27,11 @@ dd{
     height: 70px;
     text-align: center;
 }
-.header-list li{
-    float:left;
-    padding:20px 60px;
+.header-list li {
+    float: left;
+    padding: 20px 60px;
 }
-div.new {
-    height: 100px;
+dl.new-info {
+    height: 120px;
     width: 800px;
 }
