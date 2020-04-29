@@ -34,4 +34,5 @@ dd{
 .new {
     height: 100px;
     width: 800px;
+    overflow: scroll;
 }
