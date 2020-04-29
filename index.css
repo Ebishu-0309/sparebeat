@@ -31,8 +31,7 @@ dd{
     float:left;
     padding:20px 60px;
 }
-.new {
+div.new {
     height: 100px;
     width: 800px;
-    overflow: scroll;
 }
