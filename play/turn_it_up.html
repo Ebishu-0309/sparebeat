@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Turn It Up - ETIA.</title>
+    <link rel="stylesheet" href="../body.css" />
+</head>
+<body>
+    <div id="wrap">
+        <h2>Turn It Up</h2>
+        <p>Easy: 6<br />Normal: 10<br />Hard: 13</p>
+        <iframe id="sparebeat" width="960" height="640" src="https://sparebeat.com/embed/" frameborder="0"></iframe>
+        <script src="https://sparebeat.com/embed/client.js"></script>
+        <script>
+            Sparebeat.load('../map/turn_it_up.json', '../music/turn_it_up.mp3');
+            window.addEventListener('load', function () {
+                document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
+            });
+        </script>
+        <object data="https://sparebeat.com/embed/timeline/89684b8d90e171eb9b9180306711a386" text-align: center; width="960" height="600" frameborder="no" scrolling="yes"></object>
+        <br /><br />
+        <a href="../scores.html">戻る</a>
+    </div>
+</body>
+</html>
