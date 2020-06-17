@@ -10,7 +10,6 @@
         <script src="../js/play.js"></script>
         <script src="https://sparebeat.com/embed/client.js"></script>
         <script>
-            const id = location.search.substring(1).split('=')[1];
             Sparebeat.load('../map/' + id + '.json', '../music/' + id + '.mp3');
 
             window.addEventListener('load', function () {
