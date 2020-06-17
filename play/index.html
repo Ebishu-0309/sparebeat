@@ -8,6 +8,26 @@
 <body>
     <div id="wrap">
         <script src="../js/play.js"></script>
+        <script src="https://sparebeat.com/embed/client.js"></script>
+        <script>
+            const id = location.search.substring(1).split('=')[1];
+            Sparebeat.load('../map/' + id + '.json', '../music/' + id + '.mp3');
+
+            window.addEventListener('load', function () {
+                document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
+            });
+
+            var timeline_link = document.getElementById('start-timeline').children('a').href;
+            var object = document.createElement('object');
+            object.data = timeline_link,
+                object.align = center,
+                object.width = "960",
+                object.height = "600",
+                object.frameborder = "no",
+                object.scrolling = "yes";
+
+            document.getElementById('wrap').appendChild(object);
+        </script>
         <br /><br />
         <a href="../scores.html">戻る</a>
     </div>

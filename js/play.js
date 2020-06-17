@@ -33,23 +33,4 @@ if (data != undefined) {
         iframe.frameBorder = "0";
 
     document.getElementById('wrap').appendChild(iframe);
-
-    import("https://sparebeat.com/embed/client.js");
-
-    Sparebeat.load('../map/' + id + '.json', '../music/' + id + '.mp3');
-
-    window.addEventListener('load', function () {
-        document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
-    });
-
-    var timeline_link = document.getElementById('start-timeline').children('a').href;
-    var object = document.createElement('object');
-    object.data = timeline_link,
-        object.align = center,
-        object.width = "960",
-        object.height = "600",
-        object.frameborder = "no",
-        object.scrolling = "yes";
-
-    document.getElementById('wrap').appendChild(object);
 }
