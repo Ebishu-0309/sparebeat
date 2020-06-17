@@ -16,7 +16,7 @@
                 document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
             });
 
-            var timeline_link = document.getElementById('start-timeline').children('a').href;
+            var timeline_link = document.getElementById('sparebeat').contentWindow.getElementById('start-timeline').children('a').href;
             var object = document.createElement('object');
             object.data = timeline_link,
                 object.align = center,
