@@ -47,8 +47,9 @@ const Data = {
         }
     },
     "hisyou": {
-        "title": "”òãÄ“V‰Ø - ‚µ‚ç‚¢‚µ",
-        "songtitle": "”òãÄ“V‰Ø",
+        "title": "é£›ç¿”å¤©è¯ - ã—ã‚‰ã„ã—",
+        "songtitle": "é£›ç¿”å¤©è¯",
+        "timeline": "0561c1ab0adea265b859442ebf7dfce2",
         "level": {
             "Easy": "7",
             "Normal": "10",
