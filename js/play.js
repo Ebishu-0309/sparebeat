@@ -62,8 +62,8 @@ const Data = {
         "songtitle": "Gleam of Aigis [Remake]",
         "mp3": "gleam_of_aigis",
         "level": {
-            "Easy": "13",
-            "Normal": "15",
+            "Easy": "9",
+            "Normal": "14",
             "Hard": "16"
         }
     }
