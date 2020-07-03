@@ -2,7 +2,7 @@ const Data = {
     "raveltex": {
         "title": "Raveltex - ETIA.",
         "songtitle": "Raveltex",
-        "timeline": "30b508e3df5717cd618f6fb0ad116380",
+        "mp3": "raveltex",
         "level": {
             "Easy": "-",
             "Normal": "-",
@@ -12,7 +12,7 @@ const Data = {
     "gleam_of_aigis": {
         "title": "Gleam of Aigis - Lime",
         "songtitle": "Gleam of Aigis",
-        "timeline": "10be04c0063a61efce06671854f3ab1b",
+        "mp3": "gleam_of_aigis",
         "level": {
             "Easy": "-",
             "Normal": "15",
@@ -22,7 +22,7 @@ const Data = {
     "cold_breath": {
         "title": "Cold Breath - SHIKI",
         "songtitle": "Cold Breath",
-        "timeline": "511a8ced93acf941d52472c166abf39e",
+        "mp3": "cold_breath",
         "level": {
             "Easy": "-",
             "Normal": "11",
@@ -32,6 +32,7 @@ const Data = {
     "cold_breath_H+": {
         "title": "Cold Breath - SHIKI",
         "songtitle": "Cold Breath Hard+",
+        "mp3": "cold_breath",
         "level": {
             "Hard+": "16"
         }
@@ -39,7 +40,7 @@ const Data = {
     "turn_it_up": {
         "title": "Turn It Up - ETIA.",
         "songtitle": "Turn It Up",
-        "timeline": "a4214ae80ac87128cf7678ed315caf11",
+        "mp3": "turn_it_up",
         "level": {
             "Easy": "6",
             "Normal": "10",
@@ -49,11 +50,21 @@ const Data = {
     "hisyou": {
         "title": "飛翔天華 - しらいし",
         "songtitle": "飛翔天華",
-        "timeline": "0561c1ab0adea265b859442ebf7dfce2",
+        "mp3" : "hisyou",
         "level": {
             "Easy": "7",
             "Normal": "10",
             "Hard": "14"
+        }
+    },
+    "gleam_of_aigis_remake": {
+        "title": "Gleam of Aigis - Lime",
+        "songtitle": "Gleam of Aigis [Remake]",
+        "mp3": "gleam_of_aigis",
+        "level": {
+            "Easy": "13",
+            "Normal": "15",
+            "Hard": "16"
         }
     }
 };
