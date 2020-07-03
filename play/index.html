@@ -11,7 +11,7 @@
         <script src="../js/play.js" charset="utf-8"></script>
         <script src="https://sparebeat.com/embed/client.js"></script>
         <script>
-            Sparebeat.load('../map/' + id + '.json', '../music/' + id + '.mp3');
+            Sparebeat.load('../map/' + id + '.json', '../music/' + Data[id]["mp3"] + '.mp3');
 
             window.addEventListener('load', function () {
                 document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
